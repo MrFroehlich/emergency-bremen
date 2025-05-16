@@ -137,7 +137,7 @@ body {
 }
 
 .header .logo img {
-  max-height: 70px;          /* Höhe des Logos */
+  max-height: 100px;          /* Höhe des Logos */
   display: block;
 }
 
