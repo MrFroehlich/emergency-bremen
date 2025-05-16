@@ -129,7 +129,6 @@ body {
   display: flex;
   align-items: center;       /* Vertikal zentriert */
   gap: 15px;                 /* Abstand zwischen Logo und Text */
-  padding-left: 20px;        /* Abstand vom linken Rand */
   justify-content: flex-start; /* Linksbündig */
   color: #000000;
   font-size: 28px;
@@ -147,7 +146,6 @@ body {
   gap: 10px; /* Abstand zwischen Bild und Text */
   background-color: rgba(0, 0, 0, 0.6); /* schwarzer Hintergrund, 60% Deckkraft */
   padding: 5px 10px;
-  border-radius: 6px; /* Optional: abgerundete Ecken */
   max-width: fit-content; /* Damit der Container nur so breit wie nötig ist */
 }
 
