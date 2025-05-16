@@ -129,7 +129,7 @@ body {
   display: flex;
   align-items: center;       /* Vertikal zentriert */
   gap: 15px;                 /* Abstand zwischen Logo und Text */
-  justify-content: flex-start; /* Linksbündig */
+  justify-content: center; /* Linksbündig */
   color: #000000;
   font-size: 28px;
   font-weight: bold;
