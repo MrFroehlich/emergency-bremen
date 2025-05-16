@@ -124,3 +124,19 @@ body {
   pointer-events: none;
   cursor: default;
 }
+
+.header .logo {
+  display: flex;
+  align-items: center;       /* Vertikal zentriert */
+  gap: 15px;                 /* Abstand zwischen Logo und Text */
+  padding-left: 20px;        /* Abstand vom linken Rand */
+  justify-content: flex-start; /* Linksbündig */
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header .logo img {
+  max-height: 50px;          /* Höhe des Logos */
+  display: block;
+}
