@@ -140,3 +140,23 @@ body {
   max-height: 50px;          /* Höhe des Logos */
   display: block;
 }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Abstand zwischen Bild und Text */
+  background-color: rgba(0, 0, 0, 0.6); /* schwarzer Hintergrund, 60% Deckkraft */
+  padding: 5px 10px;
+  border-radius: 6px; /* Optional: abgerundete Ecken */
+  max-width: fit-content; /* Damit der Container nur so breit wie nötig ist */
+}
+
+.logo-container img {
+  height: 40px; /* Größe Logo anpassen */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF9422; /* Orange, wie vorher */
+}
