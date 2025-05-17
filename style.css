@@ -169,7 +169,7 @@ body {
 }
 
 .corner-logo {
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 
@@ -177,10 +177,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  color: #000000;
+  color: ##e0e0e0;
   background-color: rgba(255, 255, 255, 0.2); /* Optional: leichter Hintergrund */
   padding: 4px 10px;
   border-radius: 8px;
