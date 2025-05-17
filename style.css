@@ -285,8 +285,9 @@ body {
   flex-wrap: wrap;
 }
 
-.image-row .thumbnail {
-  width: 400px; /* oder 100px/200px – deine Wahl */
+.thumbnail {
+  width: 100%;
+  max-width: 400px; /* oder 150px */
   height: auto;
   border-radius: 6px;
   border: 1px solid #ccc;
