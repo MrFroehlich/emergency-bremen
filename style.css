@@ -235,13 +235,3 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-
-.element {
-  flex: 1 1 calc(25% - 20px); /* 4 Elemente pro Reihe */
-  min-width: 200px;           /* Optional: Mindestbreite */
-  background-color: #333;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  color: white;
-}
