@@ -247,3 +247,26 @@ body {
 .section-note {
   margin-bottom: 40px;
 }
+
+.title-wrapper {
+  text-align: center;
+  background-color: #444; /* optional, falls der graue Hintergrund gewünscht ist */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-size: 2rem; /* z. B. 32px */
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 1.2rem; /* z. B. 19px */
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
