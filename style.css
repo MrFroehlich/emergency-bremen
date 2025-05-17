@@ -274,4 +274,6 @@ body {
 .update-box {
   background: #ffffff;
   color: #000000; /* ← Text schwarz, damit er lesbar bleibt */
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
 }
