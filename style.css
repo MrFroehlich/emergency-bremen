@@ -231,10 +231,9 @@ body {
 }
 
 .element-row {
-  display: flex;
-  flex-wrap: wrap; /* Zeilenumbruch bei zu kleiner Breite */
-  justify-content: space-between;
-  gap: 20px; /* Abstand zwischen Elementen */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .element {
