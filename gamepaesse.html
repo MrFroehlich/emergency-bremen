@@ -143,6 +143,12 @@
       margin: 30px auto;
     }
 
+  .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+
     /* ----- Desktop/Tablet Layout ab 768px ----- */
     @media (min-width: 768px) {
       .element-row {
@@ -156,11 +162,12 @@
         padding: 20px;
         text-align: left;
       }
-      .gamepass-card > .card-header {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        flex: 1 1 auto;
+      .card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px; /* optional für Abstand zwischen Bild und Text */
+      }
       }
       /* Container für Text links */
       .title-and-text {
