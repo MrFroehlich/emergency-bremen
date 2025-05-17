@@ -80,6 +80,43 @@
       margin: 0 auto;
       padding: 0 20px;
     }
+    .gamepass-card {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  max-width: 600px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.title-and-text {
+  flex: 1;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.card-description,
+.card-features {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.buy-button {
+  align-self: flex-start;
+  margin-top: 15px;
+}
   </style>
 </head>
 <body>
@@ -121,22 +158,24 @@
         <div class="gamepass-grid">
           <!-- SEK Gamepass -->
           <div class="gamepass-card">
-            <div class="card-header">
-              <div class="card-title"><u>Spezialeinsatzkommando (SEK)</u></div>
-              <img src="Screenshot_4195.png" alt="SEK">
-            </div>
-            <div class="card-body">
-              <b>Erhalte exklusiven Zugriff auf das Spezialeinsatzkommando Bremen – die Eliteeinheit der Polizei.</b><br>
-              Als SEK-Beamter bist du bei besonders gefährlichen Lagen im Einsatz: Geiselnahmen, Amoklagen, bewaffnete Täter. Zeige höchste Disziplin, arbeite im Team – und sichere Bremen vor extremen Bedrohungslagen!
-            </div>
-            <div class="card-features">
-              <u>Features:</u><br>
-              - Zivile Polizeifahrzeuge und ein Panzerwagen<br>
-              - Spezielle Uniform mit Panzerung<br>
-              - Zugriff auf taktische Ausrüstung: Ramme, Blendgranate, GA416, Gummigeschoss-Waffe u.v.m.
-            </div>
-            <a href="https://www.roblox.com/de/game-pass/950399134/Spezialeinsatzkommando" class="buy-button">Kaufen</a>
-          </div>
+  <div class="card-header">
+    <div class="title-and-text">
+      <h4 class="card-title">Spezialeinsatzkommando (SEK)</h4>
+      <p class="card-description">
+        <b>Erhalte exklusiven Zugriff auf das Spezialeinsatzkommando Bremen – die Eliteeinheit der Polizei.</b><br>
+        Als SEK-Beamter bist du bei besonders gefährlichen Lagen im Einsatz: Geiselnahmen, Amoklagen, bewaffnete Täter. Zeige höchste Disziplin, arbeite im Team – und sichere Bremen vor extremen Bedrohungslagen!
+      </p>
+      <p class="card-features">
+        <u>Features:</u><br>
+        - Zivile Polizeifahrzeuge und ein Panzerwagen<br>
+        - Spezielle Uniform mit Panzerung<br>
+        - Zugriff auf taktische Ausrüstung: Ramme, Blendgranate, GA416, Gummigeschoss-Waffe u.v.m.
+      </p>
+      <a href="https://www.roblox.com/de/game-pass/950399134/Spezialeinsatzkommando" class="buy-button">Kaufen</a>
+    </div>
+    <img src="Screenshot_4195.png" alt="SEK" />
+  </div>
+</div>
 
           <!-- Zivilpolizei Gamepass -->
           <div class="gamepass-card">
