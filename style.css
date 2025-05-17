@@ -233,9 +233,10 @@ body {
 }
 
 .element-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Fügt horizontal UND vertikal Abstand hinzu */
 }
 
 .section-note {
