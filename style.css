@@ -298,3 +298,26 @@ body {
 .image-row .thumbnail:hover {
   transform: scale(1.25);
 }
+
+
+@media (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .corner-logo {
+    width: 120px; /* oder kleiner, falls nötig */
+  }
+
+  .center-title {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    padding: 6px 12px;
+  }
+}
