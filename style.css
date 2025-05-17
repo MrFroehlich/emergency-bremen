@@ -55,7 +55,8 @@ body {
 }
 
 .nav li a:hover {
-  background-color: #d36200;
+  background-color: #d36200
+  transform: scale(1.1);
 }
 
 /* HERO */
