@@ -286,7 +286,7 @@ body {
 }
 
 .image-row .thumbnail {
-  width: 150px; /* oder 100px/200px – deine Wahl */
+  width: 250px; /* oder 100px/200px – deine Wahl */
   height: auto;
   border-radius: 6px;
   border: 1px solid #ccc;
@@ -295,5 +295,5 @@ body {
 }
 
 .image-row .thumbnail:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
