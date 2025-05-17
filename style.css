@@ -234,16 +234,14 @@ body {
 
 .element-row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  margin-top: 30px; /* Abstand zum oberen Text */
+  flex-wrap: wrap;
+  gap: 30px; /* Fügt horizontal UND vertikal Abstand hinzu */
 }
 
 .element-row > div {
-  flex: 1 1 calc(25% - 20px); /* 4 pro Reihe, abzüglich der gap */
-  max-width: calc(25% - 20px);
-  min-width: 200px; /* falls der Bildschirm kleiner ist */
+  max-width: 300px;
+  width: 100%;
 }
 
 .section-note {
