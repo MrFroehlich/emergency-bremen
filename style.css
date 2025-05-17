@@ -280,16 +280,20 @@ body {
 
 .image-row {
   display: flex;
-  gap: 20px; /* Abstand zwischen den Bildern */
+  gap: 1rem;
   margin-top: 1rem;
-  justify-content: center;
-  flex-wrap: wrap; /* Optional, falls der Platz nicht reicht */
+  flex-wrap: wrap;
 }
 
-.image-row img {
-  flex: 1 1 45%;
-  max-width: 100%;
+.image-row .thumbnail {
+  width: 150px; /* oder 100px/200px – deine Wahl */
   height: auto;
   border-radius: 6px;
   border: 1px solid #ccc;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.image-row .thumbnail:hover {
+  transform: scale(1.05);
 }
