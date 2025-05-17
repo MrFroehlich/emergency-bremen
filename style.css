@@ -229,3 +229,20 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+.element-row {
+  display: flex;
+  flex-wrap: wrap; /* Zeilenumbruch bei zu kleiner Breite */
+  justify-content: space-between;
+  gap: 20px; /* Abstand zwischen Elementen */
+}
+
+.element {
+  flex: 1 1 calc(25% - 20px); /* 4 Elemente pro Reihe */
+  min-width: 200px;           /* Optional: Mindestbreite */
+  background-color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+}
