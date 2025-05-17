@@ -277,3 +277,19 @@ body {
   max-width: 1500px;
   margin: 0 auto 1.5rem auto;
 }
+
+.image-row {
+  display: flex;
+  gap: 20px; /* Abstand zwischen den Bildern */
+  margin-top: 1rem;
+  justify-content: center;
+  flex-wrap: wrap; /* Optional, falls der Platz nicht reicht */
+}
+
+.image-row img {
+  flex: 1 1 45%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
