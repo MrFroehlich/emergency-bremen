@@ -323,3 +323,9 @@ body {
     padding: 6px 12px;
   }
 }
+
+.main-content {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 10px;
+}
