@@ -6,7 +6,27 @@
   <title>Emergency Bremen - Regeln</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+  .buy-button {
+  background-color: #1c408a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  transition: transform 0.2s ease;
+    }
+   .buy-button:hover {
+    background-color: #13365e;
+    transform: scale(1.1)
+    }
+
+  </style>
 </head>
+    
 <body>
   <header class="header">
     <div class="header-flex">
@@ -34,197 +54,61 @@
       </nav>
     </div>
   </header>
-  
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #121212;
-      color: #ccc;
-      margin: 0;
-      padding: 0;
-    }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    h2 {
-      color: white;
-      text-align: center;
-    }
-
-    .section-note {
-      max-width: 800px;
-      margin: 30px auto;
-      text-align: center;
-      color: white;
-    }
-
-    .element-row {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .gamepass-card {
-      background-color: #2a2a2a;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      text-align: center;
-      overflow-y: auto;
-      height: auto;
-    }
-
-    .gamepass-card img {
-      width: 100px;
-      height: 100px;
-      border-radius: 5%;
-      object-fit: cover;
-      margin-bottom: 15px;
-    }
-
-    .gamepass-card h4 {
-      color: white;
-      margin-bottom: 10px;
-      text-decoration: underline;
-    }
-
-    .gamepass-card p {
-      margin: 5px 0;
-      text-align: left;
-      font-size: 0.95rem;
-      line-height: 1.4;
-    }
-
-    .buy-button {
-      background-color: #1c408a;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 25px;
-      cursor: pointer;
-      font-size: 1rem;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 15px;
-    }
-
-    .buy-button:hover {
-      background-color: #13365e;
-      transform: scale(1.1);
-    }
-
-    /* ----- Desktop Layout ab 768px ----- */
-    @media (min-width: 768px) {
-      .element-row {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      .gamepass-card {
-        display: flex;
-        flex-direction: row;
-        text-align: left;
-        width: 48%;
-        height: auto;
-      }
-
-      .card-header {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 20px;
-      }
-
-      .gamepass-card img {
-        margin: 0;
-        flex-shrink: 0;
-        align-self: flex-start;
-      }
-
-      .title-and-text {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        color: #ccc;
-      }
-
-      .title-and-text h4 {
-        color: white;
-        margin: 0 0 10px 0;
-      }
-
-      .title-and-text p {
-        margin: 5px 0;
-      }
-
-      .buy-button {
-        align-self: flex-start;
-        margin-top: auto;
-      }
-    }
-  </style>
-</head>
-<body>
-  
-  <main>
+    <main>
     <section class="about">
       <div class="container">
         <h2>Unsere Gamepässe</h2>
-        <p class="section-note">
-          Willkommen im Gamepass-Shop von Emergency Bremen! Hier findest du exklusive Erweiterungen für dein Spielerlebnis – von Spezialfahrzeugen über neue Berufe bis hin zu einzigartigen Vorteilen im Einsatz.
+        <p>Willkommen im Gamepass-Shop von Emergency Bremen!
+        Hier findest du exklusive Erweiterungen für dein Spielerlebnis – von Spezialfahrzeugen über neue Berufe bis hin zu einzigartigen Vorteilen im Einsatz.
         </p>
-        <p class="section-note">
-          Mit dem Kauf von Gamepässen unterstützt du unser Entwicklerteam direkt. Jeder Beitrag hilft uns, Emergency Bremen weiterzuentwickeln. Vielen Dank für deinen Support!
-        </p>
+        <p class="section-note">Mit den Gamepässen kannst du noch tiefer in die Welt von Emergency Bremen eintauchen, dir besondere Features im Spiel sichern und uns als Entwickler unterstützen.</p>
 
         <div class="element-row">
-          <!-- SEK Gamepass -->
-          <div class="gamepass-card">
-            <div class="card-header">
-              <div class="title-and-text">
-                <h4>Spezialeinsatzkommando (SEK)</h4>
-                <p><b>Erhalte exklusiven Zugriff auf das Spezialeinsatzkommando Bremen – die Eliteeinheit der Polizei 👮‍♂️👮‍♀️.</b><br>
-                  Als SEK-Beamter bist du bei besonders gefährlichen Lagen im Einsatz: Geiselnahmen, Amoklagen, bewaffnete Täter. Zeige höchste Disziplin, arbeite im Team – und sichere Bremen vor extremen Bedrohungslagen!
-                </p>
-                <p><u>Features:</u><br>
-                  - Zivile Polizeifahrzeuge und ein Panzerwagen<br>
-                  - spezielle Uniform mit Panzerung<br>
-                  - Zugriff auf taktische Ausrüstung, z.B. Ramme, Blendgranate, ein Sturmgewehr GA416, eine Gummigeschoss-Waffe und vieles mehr!
-                </p>
-                <a href="https://www.roblox.com/de/game-pass/950399134/Spezialeinsatzkommando" class="buy-button">Kaufen</a>
-              </div>
-              <img src="Screenshot_4195.png" alt="SEK" />
-            </div>
+
+          <div style="background-color: #2a2a2a; padding: 20px; border-radius: 8px; width: 600px; height: 550px; box-shadow: 0 0 10px rgba(0,0,0,0.5); text-align: center; overflow-y: auto;">
+            <img src="Screenshot_4195.png" alt="SEK" style="width: 100px; height: 100px; border-radius: 5%; object-fit: cover; margin-bottom: 15px;">
+            <h4><u>Spezialeinsatzkommando (SEK)</u></h4><br>
+            <p><b>Erhalte exklusiven Zugriff auf das Spezialeinsatzkommando Bremen – die Eliteeinheit der Polizei 👮‍♂️👮‍♀️.</b><br>
+              Als SEK-Beamter bist du bei besonders gefährlichen Lagen im Einsatz: Geiselnahmen, Amoklagen, bewaffnete Täter. <br> Zeige höchste Disziplin, arbeite im Team – und sichere Bremen vor extremen Bedrohungslagen!
+            </p>
+            <br>
+            <p align="left"><u>Features:</u></p>
+            <p align="left">- Zivile Polizeifahrzeuge und ein Panzerwagen <br> - spezielle Uniform mit Panzerung <br> - Zugriff auf taktische Ausrüstung, z.B. Ramme, Blendgranate, ein Sturmgewehr GA416, eine Gummigeschoss-Waffe und vieles mehr!
+            </p>
+            <a href="https://www.roblox.com/de/game-pass/950399134/Spezialeinsatzkommando" class="buy-button">Kaufen</a>
           </div>
 
-          <!-- Zivilpolizei Gamepass -->
-          <div class="gamepass-card">
-            <div class="card-header">
-              <div class="title-and-text">
-                <h4>Zivilpolizei</h4>
-                <p><b>Übernimm die Rolle eines Zivilpolizisten und arbeite verdeckt im Straßenbild von Bremen.</b><br>
-                  Ob verdeckte Ermittlungen, Observierung oder gezielte Zugriffe – als Zivilbeamter bist du flexibel, unauffällig und jederzeit einsatzbereit.
-                </p>
-                <p><u>Features:</u><br>
-                  - Zivile Polizeifahrzeuge mit exklusiven Funktionen<br>
-                  - Zivilkleidung und Polizeidienstausweis<br>
-                  - Ausrüstung zur Spurensicherung, Zugriff auf Überwachungskameras u.v.m.
-                </p>
-                <a href="https://www.roblox.com/de/game-pass/1004054098/Undercover-Cop" class="buy-button">Kaufen</a>
-              </div>
-              <img src="Screenshot_4227.png" alt="Zivilpolizei" />
-            </div>
+          <div style="background-color: #2a2a2a; padding: 20px; border-radius: 8px; width: 600px; height: 550px; box-shadow: 0 0 10px rgba(0,0,0,0.5); text-align: center; overflow-y: auto;">
+            <img src="Screenshot_4227.png" alt="Zivilpolizei" style="width: 100px; height: 100px; border-radius: 5%; object-fit: cover; margin-bottom: 15px;">
+            <h4><u>Zivilpolizei</u></h4><br>
+            <p><b>Übernimm die Rolle eines Zivilpolizisten und arbeite verdeckt im Straßenbild von Bremen.</b><br>
+              Ob verdeckte Ermittlungen, Observierung oder gezielte Zugriffe – als Zivilbeamter bist du flexibel, unauffällig und jederzeit einsatzbereit.
+            </p>
+            <br>
+            <p align="left"><u>Features:</u></p>
+            <p align="left">- Zivile Polizeifahrzeuge mit exklusiven Funktionen <br> - Zivilkleidung und Polizeidienstausweis <br> - Ausrüstung zur Spurensicherung, Zugriff auf Überwachungskameras u.v.m.
+            </p>
+            <a href="https://www.roblox.com/de/game-pass/1004054098/Undercover-Cop" class="buy-button">Kaufen</a>
           </div>
+
         </div>
+
+        <p style="max-width: 800px; margin: 30px auto; text-align: center;">
+          <b>Mit dem Kauf von Gamepässen unterstützt du unser Entwicklerteam direkt.<br>Jeder Beitrag hilft uns, Emergency Bremen weiterzuentwickeln, neue Inhalte zu erstellen und die Qualität des Spiels dauerhaft zu verbessern.<br>
+Vielen Dank für deinen Support!</b>
+        </p>
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Emergency Bremen | GameVorces & Co. Development Group</p>
+    </div>
+  </footer>
+</body>
+</html>
+  </footer>
 </body>
 </html>
